@@ -15,6 +15,7 @@ int main()
     if(!image){
         printf("Error: Couldn't open the image file.\n");
     }
+	dddddfwefw
     cvShowImage("HelloWorld",image); // 使影像在視窗中顯示
     cvWaitKey(0); // 使影像視窗停留
     cvDestroyWindow("HelloWorld"); // 用來銷毀一個視窗
